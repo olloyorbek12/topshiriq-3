@@ -1,0 +1,26 @@
+{
+  "name": "hospital-queue-contracts",
+  "version": "1.0.0",
+  "description": "Hospital queue smart contract assignment with payable payments, mapping balances, events, and owner withdrawals.",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:localhost": "hardhat run scripts/deploy.ts --network localhost",
+    "demo": "hardhat run scripts/demo.ts"
+  },
+  "keywords": ["solidity", "hardhat", "hospital", "queue", "payable"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.7",
+    "@types/node": "^25.6.0",
+    "hardhat": "^3.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
